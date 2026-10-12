@@ -1,0 +1,26 @@
+# Only explicitly reviewed files may be committed.
+*
+!*/
+!/.gitignore
+!/README.md
+!/lab1/answers.txt
+!/lab1/bomb.s
+!/lab2/kernels.c
+
+# Never track private reports, archives, captures, or credentials.
+*.doc
+*.docx
+*.docm
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tgz
+*.pcap
+*.pcapng
+.env
+.env.*
+*.pem
+*.key
